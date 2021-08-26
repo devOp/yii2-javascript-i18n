@@ -5,13 +5,17 @@
             "name": "devOp"
         }
     ],
-    "version": "0.1-dev",
     "license": "GFDL-1.2-or-later",
     "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "psr-0": {
             "Yii2JavaScriptI18N": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
         }
     }
 } 

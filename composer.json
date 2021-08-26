@@ -5,6 +5,7 @@
             "name": "devOp"
         }
     ],
+    "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "psr-0": {

@@ -12,6 +12,6 @@ class JSTranslationsCollector extends Controller
 
     public function actionCollect()
     {
-
+        return;
     }
 }

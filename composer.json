@@ -5,7 +5,7 @@
             "name": "devOp"
         }
     ],
-    "version": "v0.1-dev",
+    "version": "0.1-dev",
     "license": "CC-0",
     "minimum-stability": "dev",
     "require": {},

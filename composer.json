@@ -1,0 +1,14 @@
+{
+    "name": "devOp/yii2-javascript-i18n",
+    "authors": [
+        {
+            "name": "devOp"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "Yii2JavaScriptI18N": "src/"
+        }
+    }
+} 

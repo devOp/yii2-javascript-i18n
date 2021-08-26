@@ -6,7 +6,7 @@
         }
     ],
     "version": "0.1-dev",
-    "license": "CC-0",
+    "license": "GFDL-1.2-or-later",
     "minimum-stability": "dev",
     "require": {},
     "autoload": {

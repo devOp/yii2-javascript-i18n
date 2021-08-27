@@ -3,7 +3,7 @@
 namespace Yii2JavaScriptI18N;
 
 use Yii;
-
+use RecursiveDirectoryIterator;
 use yii\base\Component;
 use yii\web\View;
 

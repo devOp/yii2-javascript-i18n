@@ -1,7 +1,6 @@
 <?php
 namespace Yii2JavaScriptI18N;
 
-use RecursiveDirectoryIterator;
 use Yii;
 use yii\console\Controller;
 use yii\helpers\Json;

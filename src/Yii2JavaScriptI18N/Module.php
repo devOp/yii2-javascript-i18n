@@ -49,7 +49,7 @@ class Module extends \yii\base\Module
         }
         if (Yii::$app instanceof \yii\web\Application) {
             Yii::$app->view->registerJsFile(
-                'collector/translations/i18n'
+                '/collector/translations/i18n'
             );
             $this->registerJsScript();
         }

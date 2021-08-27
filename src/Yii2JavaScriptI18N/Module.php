@@ -6,6 +6,7 @@ use Yii;
 use RecursiveDirectoryIterator;
 use yii\base\Component;
 use yii\web\View;
+use yii\helpers\Json;
 
 /**
  * To use the Module, you should configure it in the application configuration like the following:

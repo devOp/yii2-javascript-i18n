@@ -3,7 +3,6 @@ namespace Yii2JavaScriptI18N;
 
 use Yii;
 use yii\web\Controller;
-use yii\helpers\Json;
 
 /**
  *

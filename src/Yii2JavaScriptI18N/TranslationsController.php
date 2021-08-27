@@ -28,4 +28,10 @@ class TranslationsController extends Controller
     {
         return Yii::$app->response->sendFile($this->module->jsFilenameOnServer);
     }
+
+    public function actionCollect()
+    {
+        $this->module->collect();
+        return "JS Translations collected and saved.";
+    }
 }

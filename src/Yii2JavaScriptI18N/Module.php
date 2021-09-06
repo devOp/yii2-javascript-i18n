@@ -40,6 +40,9 @@ class Module extends \yii\base\Module
 
     public function init()
     {
+        // hack for alias problem
+        Yii::setAlias('@Yii2JavaScriptI18N', __DIR__);
+
         parent::init();
         $this->jsFilenameOnServer =
             Yii::getAlias('@app') . '/' . $this->jsFilename;
@@ -106,9 +109,9 @@ class Module extends \yii\base\Module
         $translations = [];
         foreach ($langs as $lang) {
             $translations[$lang] = [];
-            foreach ($texts as $cat => $texts) {
+            foreach ($texts as $cat => $catTexts) {
                 $translations[$lang][$cat] = [];
-                foreach ($texts as $text) {
+                foreach ($catTexts as $text) {
                     $translations[$lang][$cat][$text] = Yii::t($cat, $text, [], $lang);
                 }
             }

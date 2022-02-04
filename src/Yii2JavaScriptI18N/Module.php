@@ -139,7 +139,7 @@ class Module extends \yii\base\Module
   if (!('t' in window.yii)) {
     if (!document.documentElement.lang) {
       throw new Error(
-        'You must specify the "lang" attribute for the <html> element'
+        'You must specify the "lang" attribute for the "html" element'
       );
     }
     yii.t = function (category, message, params, language) {
